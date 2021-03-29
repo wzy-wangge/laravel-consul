@@ -3,19 +3,13 @@
 ## Quickstart
 
 ```
-composer require personali/laravel-consul
+composer require wzy-wangge/laravel-consul
 ```
 
 Add to `providers` in `config/app.php`:
 
 ```
 Personali\LaravelConsul\ConsulServiceProvider::class,
-```
-
-Add to `aliases` in `config/app.php`:
-
-```
-'Consul' => Personali\LaravelConsul\ConsulFacade::class,
 ```
 
 To your `.env` add these variables and set them to your liking:
