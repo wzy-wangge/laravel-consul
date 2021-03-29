@@ -1,7 +1,7 @@
 <?php
-namespace Personali\LaravelConsul;
+namespace Wzy\LaravelConsul;
 use Illuminate\Support\Facades\Facade;
-use Personali\LaravelConsul\Clients\HealthClient;
+use Wzy\LaravelConsul\Clients\HealthClient;
 
 
 /**

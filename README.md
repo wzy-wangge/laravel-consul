@@ -9,7 +9,7 @@ composer require wzy-wangge/laravel-consul
 Add to `providers` in `config/app.php`:
 
 ```
-Personali\LaravelConsul\ConsulServiceProvider::class,
+Wzy\LaravelConsul\ConsulServiceProvider::class,
 ```
 
 To your `.env` add these variables and set them to your liking:

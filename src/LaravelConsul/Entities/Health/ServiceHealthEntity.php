@@ -1,7 +1,7 @@
 <?php
-namespace Personali\LaravelConsul\Entities\Health;
+namespace Wzy\LaravelConsul\Entities\Health;
 
-use Personali\LaravelConsul\Entities\IEntity;
+use Wzy\LaravelConsul\Entities\IEntity;
 
 
 class ServiceHealthEntity implements IEntity{

@@ -1,5 +1,5 @@
 <?php
-namespace Personali\LaravelConsul;
+namespace Wzy\LaravelConsul;
 
 use Illuminate\Support\ServiceProvider;
 class ConsulServiceProvider extends ServiceProvider{

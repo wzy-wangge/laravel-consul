@@ -1,7 +1,7 @@
 <?php
-namespace Personali\LaravelConsul;
+namespace Wzy\LaravelConsul;
 
-use Personali\LaravelConsul\Clients\HealthClient;
+use Wzy\LaravelConsul\Clients\HealthClient;
 
 class Consul{
 	private $_healthClient;

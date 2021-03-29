@@ -1,11 +1,11 @@
 {
-    "name": "personali/laravel-consul",
-    "description": "An optional laravel 5 package for querying consul agents",
+    "name": "wzy-wangge/laravel-consul",
+    "description": "laravel连接consul获取健康服务",
     "license": "MIT",
     "authors": [
         {
-            "name": "amirbilu",
-            "email": "amirbilu@gmail.com"
+            "name": "wzy",
+            "email": "791276756@qq.com"
         }
     ],
     "require": {
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Personali\\LaravelConsul\\": "src/LaravelConsul"
+            "Wzy\\LaravelConsul\\": "src/LaravelConsul"
         }
     }
 }

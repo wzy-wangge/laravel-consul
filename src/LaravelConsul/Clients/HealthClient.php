@@ -1,7 +1,7 @@
 <?php
-namespace Personali\LaravelConsul\Clients;
+namespace Wzy\LaravelConsul\Clients;
 
-use Personali\LaravelConsul\Entities\Health\ServiceHealthEntity;
+use Wzy\LaravelConsul\Entities\Health\ServiceHealthEntity;
 
 class HealthClient extends Client{
 	const HEALTH_URI_PREFIX = '/v1/health/';

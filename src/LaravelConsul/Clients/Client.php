@@ -1,5 +1,5 @@
 <?php
-namespace Personali\LaravelConsul\Clients;
+namespace Wzy\LaravelConsul\Clients;
 
 abstract Class Client{
 	private $_api;
