@@ -1,16 +1,23 @@
 <?php
 namespace Personali\LaravelConsul;
 
-use App;
 use Illuminate\Support\ServiceProvider;
 class ConsulServiceProvider extends ServiceProvider{
+
+    /**
+     *标记服务提供者是否延迟加载
+     *
+     * @var bool
+     */
+    protected $defer = true;
+
 
     public function boot(){
 
     }
 
     public function register(){
-        App::bind("consul", function(){
+        $this->app->bind("consul",function(){
             return new Consul();
         });
     }

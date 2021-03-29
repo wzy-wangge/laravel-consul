@@ -26,7 +26,7 @@ CONSUL_AGENT_PORT=8500
 ```
 
 
-Copy config/consul.php to your config folder/
+复制 config/consul.php 到你的`config`下、否则运行会有异常
 
 ## Usage
 
